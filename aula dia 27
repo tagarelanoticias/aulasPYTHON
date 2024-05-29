@@ -1,0 +1,31 @@
+cadastros = []  
+
+cadastros.append(nome)
+
+for nome in cadastros:
+    print(nome)
+
+if nome in cadastros:
+    print(nome)
+
+cadastros.sort()
+
+
+cadastros.remove(nome)
+
+
+while True:
+    print('escolha uma opção')
+    print('1. cadastro de pessoas')
+    print('2.lista pessoas')
+    print('3.pesquisar nomes')
+    print('.4.organizar em ordem afabetica')
+    print('5.atualizar nomes')
+    print('6.deletar nomes')
+    print('7sair do programa')
+
+    op = input('digite uma opção')
+
+    if op == '1':
+        nome = input('digite seu nome')
+        cadastros.append(nome)
